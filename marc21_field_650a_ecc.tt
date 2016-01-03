@@ -13,299 +13,7 @@
     </tr>
     <tr>
         <td>
-	        <input type="radio" name="radio_f" value="f1" onClick="enableElement()";>  Bible  聖經
-        </td>
-        <td>
-            <select name="f1" id="f1" size="1" disabled>
-                [% IF ( f1pipe ) %]
-                    <option value="" selected="selected">Please choose...   請選...</option>
-                [% ELSE %]
-                    <option value="">Please choose...   請選...</option>
-                [% END %]
-                [% IF ( f101 ) %]
-                    <option value="Chinese Bible  中文聖經" selected="selected">Chinese Bible  中文聖經</option>
-                [% ELSE %]
-                    <option value="Chinese Bible  中文聖經">Chinese Bible  中文聖經</option>
-                [% END %]
-                [% IF ( f102 ) %]
-                    <option value="Chinese and English Bible  中英聖經" selected="selected">Chinese and English Bible  中英聖經</option>
-                [% ELSE %]
-                    <option value="Chinese and English Bible  中英聖經">Chinese and English Bible  中英聖經</option>
-                [% END %]
-                [% IF ( f103 ) %]
-                    <option value="Devotional Bible  靈修版聖經" selected="selected">Devotional Bible  靈修版聖經</option>
-                [% ELSE %]
-                    <option value="Devotional Bible  靈修版聖經">Devotional Bible  靈修版聖經</option>
-                [% END %]
-                [% IF ( f104 ) %]
-                    <option value="English Bible  英文聖經" selected="selected">English Bible  英文聖經</option>
-                [% ELSE %]
-                    <option value="English Bible  英文聖經">English Bible  英文聖經</option>
-                [% END %]
-                [% IF ( f105 ) %]
-                    <option value="Study Bible  研讀本聖經" selected="selected">Study Bible  研讀本聖經</option>
-                [% ELSE %]
-                    <option value="Study Bible  研讀本聖經">Study Bible  研讀本聖經</option>
-                [% END %]
-            </select>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <input type="radio" name="radio_f" value="f2" onClick="enableElement()";>  Bible Study Resources  查經材料
-        </td>
-        <td>
-            <select name="f2" id="f2" size="1" disabled>
-                [% IF ( f2pipe ) %]
-                    <option value="" selected="selected">Please choose...   請選...</option>
-                [% ELSE %]
-                    <option value="">Please choose...   請選...</option>
-                [% END %]
-
-                [% IF ( f201 ) %]
-                    <option value="Bible Study Resources  查經材料" selected="selected">Bible Study Resources  查經材料</option>
-                [% ELSE %]
-                    <option value="Bible Study Resources  查經材料">Bible Study Resources  查經材料</option>
-                % END %]
-            </select>
-        </td>
-    </tr>
-	<tr>
-        <td>
-            <input type="radio" name="radio_f" value="f3" onClick="enableElement()";>  Bible Study Tools  工具書
-        </td>
-        <td>
-            <select name="f3" id="f3" size="1" disabled>
-                [% IF ( f3pipe ) %]
-                    <option value="" selected="selected">Please choose...   請選...</option>
-                [% ELSE %]
-                    <option value="">Please choose...   請選...</option>
-                [% END %]
-                [% IF ( f301 ) %]
-                    <option value="Bible Commentary  註釋書" selected="selected">Bible Commentary  註釋書</option>
-                [% ELSE %]
-                    <option value="Bible Commentary  註釋書">Bible Commentary  註釋書</option>
-                [% END %]
-                [% IF ( f302 ) %]
-                    <option value="Bible Reference  參考書" selected="selected">Bible Reference  參考書</option>
-                [% ELSE %]
-                    <option value="Bible Reference  參考書">Bible Reference  參考書</option>
-                [% END %]
-            </select>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <input type="radio" name="radio_f" value="f4" onClick="enableElement()";>  Biographies  傳記
-        </td>
-        <td>
-            <select name="f4" id="f4" size="1" disabled>
-                [% IF ( f4pipe ) %]
-                    <option value="" selected="selected">Please choose...   請選...</option>
-                [% ELSE %]
-                    <option value="">Please choose...   請選...</option>
-                [% END %]
-                [% IF ( f401 ) %]
-                    <option value="Biographies  傳記" selected="selected">Biographies  傳記</option>
-                [% ELSE %]
-                    <option value="Biographies  傳記">Biographies  傳記</option>
-                [% END %]
-            </select>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <input type="radio" name="radio_f" value="f5" onClick="enableElement()";>  Christian Living  基督徒生活
-        </td>
-        <td>
-            <select name="f5" id="f5" size="1" disabled>
-                [% IF ( f5pipe ) %]
-                    <option value="" selected="selected">Please choose...   請選...</option>
-                [% ELSE %]
-                    <option value="">Please choose...   請選...</option>
-                [% END %]
-                [% IF ( f501 ) %]
-                    <option value="Career  職業" selected="selected">Career  職業</option>
-                [% ELSE %]
-                    <option value="Career  職業">Career  職業</option>
-                [% END %]
-                [% IF ( f502 ) %]
-                    <option value="Children Parenting  教養兒童" selected="selected">Children Parenting  教養兒童</option>
-                [% ELSE %]
-                    <option value="Children Parenting  教養兒童">Children Parenting  教養兒童</option>
-                [% END %]
-                [% IF ( f503 ) %]
-                    <option value="Divorce  失婚" selected="selected">Divorce  失婚</option>
-                [% ELSE %]
-                    <option value="Divorce  失婚">Divorce  失婚</option>
-                [% END %]
-                [% IF ( f504 ) %]
-                    <option value="Emotional Issues  情感問題" selected="selected">Emotional Issues  情感問題</option>
-                [% ELSE %]
-                    <option value="Emotional Issues  情感問題">Emotional Issues  情感問題</option>
-                [% END %]
-                [% IF ( f505 ) %]
-                    <option value="Family  家庭" selected="selected">Family  家庭</option>
-                [% ELSE %]
-                    <option value="Family  家庭">Family  家庭</option>
-                [% END %]
-                [% IF ( f506 ) %]
-                    <option value="Finance  理財" selected="selected">Finance  理財</option>
-                [% ELSE %]
-                    <option value="Finance  理財">Finance  理財</option>
-                [% END %]
-                [% IF ( f507 ) %]
-                    <opti n value="For Man  男人" selected="selected">For Man  男人</option>
-                [% ELSE %]
-                    <option value="For Man  男人">For Man  男人</option>
-                [% END %]
-                [% IF ( f508 ) %]
-                    <option value="For Senior  長者" selected="selected">For Senior  長者</option>
-                [% ELSE %]
-                    <option value="For Senior  長者">For Senior  長者</option>
-                [% END %]
-                [% IF ( f509 ) %]
-                    <option value="For Woman  婦女" selected="selected">For Woman  婦女</option>
-                [% ELSE %]
-                    <option value="For Woman  婦女">For Woman  婦女</option>
-                [% END %]
-                [% IF ( f510 ) %]
-                    <option value="Friendship  交友" selected="selected">Friendship  交友</option>
-                [% ELSE %]
-                    <option value="Friendship  交友">Friendship  交友</option>
-                [% END %]
-                [% IF ( f511 ) %]
-                    <option value="Marriage  婚姻" selected="selected">Marriage  婚姻</option>
-                [% ELSE %]
-                    <option value="Marriage  婚姻">Marriage  婚姻</option>
-                [% END %]
-                [% IF ( f512 ) %]
-                    <option value="Physical Issues  身體問題" selected="selected">Physical Issues  身體問題</option>
-                [% ELSE %]
-                    <option value="Physical Issues  身體問題">Physical Issues  身體問題</option>
-                [% END %]
-                [% IF ( f513 ) %]
-                    <option value="Special need  特殊需要" selected="selected">Special need  特殊需要</option>
-                [% ELSE %]
-                    <option value="Special need  特殊需要">Special need  特殊需要</option>
-                [% END %]
-                [% IF ( f514 ) %]
-                    <option value="Youth Parenting  教養青少年" selected="selected">Youth Parenting  教養青少年</option>
-                [% ELSE %]
-                    <option value="Youth Parenting  教養青少年">Youth Parenting  教養青少年</option>
-                [% END %]
-            </select>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <input type="radio" name="radio_f" value="f6" onClick="enableElement()";>  Church  教會
-        </td>
-        <td>
-            <select name="f6" id="f6" size="1" disabled>
-                [% IF ( f6pipe ) %]
-                    <option value="" selected="selected">Please choose...   請選...</option>
-                [% ELSE %]
-                    <option value="">Please choose...   請選...</option>
-                [% END %]
-                [% IF ( f601 ) %]
-                    <option value="Apologetics  護教學" selected="selected">Apologetics  護教學</option>
-                [% ELSE %]
-                    <option value="Apologetics  護教學">Apologetics  護教學</option>
-                [% END %]
-                [% IF ( f602 ) %]
-                    <option value="Christian Denominations  基督教派" selected="selected">Christian Denominations  基督教派</option>
-                [% ELSE %]
-                    <option value="Christian Denominations  基督教派">Christian Denominations  基督教派</option>
-                [% END %]
-                [% IF ( f603 ) %]
-                    <option value="Church History  教會歷史" selected="selected">Church History  教會歷史</option>
-                [% ELSE %]
-                    <option value="Church History  教會歷史">Church History  教會歷史</option>
-                [% END %]
-                [% IF ( f604 ) %]
-                    <option value="Heresy  異端" selected="selected">Heresy  異端</option>
-                [% ELSE %]
-                    <option value="Heresy  異端">Heresy  異端</option>
-                [% END %]
-            </select>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <input type="radio" name="radio_f" value="f7" onClick="enableElement()";>  Fiction  文藝創作
-        </td>
-        <td>
-            <select name="f7" id="f7" size="1" disabled>
-                [% IF ( f7pipe ) %]
-                    <option value="" selected="selected">Please choose...   請選...</option>
-                [% ELSE %]
-                    <option value="">Please choose...   請選...</option>
-                [% END %]
-                [% IF ( f701 ) %]
-                    <option value="Fiction  文藝創作" selected="selected">Fiction  文藝創作</option>
-                [% ELSE %]
-                    <option value="Fiction  文藝創作">Fiction  文藝創作</option>
-                [% END %]
-            </select>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <input type="radio" name="radio_f" value="f8" onClick="enableElement()";>  Music Resources  音樂資源
-        </td>
-        <td>
-            <select name="f8" id="f8" size="1" disabled>
-                [% IF ( f8pipe ) %]
-                    <option value="" selected="selected">Please choose...   請選...</option>
-                [% ELSE %]
-                    <option value="">Please choose...   請選...</option>
-                [% END %]
-                [% IF ( f801 ) %]
-                    <option value="Music Resources  音樂資源" selected="selected">Music Resources  音樂資源</option>
-                [% ELSE %]
-                    <option value="Music Resources  音樂資源">Music Resources  音樂資源</option>
-                [% END %]
-            </select>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <input type="radio" name="radio_f" value="f9" onClick="enableElement()";>  Practical Theology  實踐神學
-        </td>
-        <td>
-            <select name="f9" id="f9" size="1" disabled>
-                [% IF ( f9pipe ) %]
-                    <option value="" selected="selected">Please choose...   請選...</option>
-                [% ELSE %]
-                    <option value="">Please choose...   請選...</option>
-                [% END %]
-                [% IF ( f901 ) %]
-                    <option value="Church Administration  教會管理" selected="selected">Church Administration  教會管理</option>
-                [% ELSE %]
-                    <option value="Church Administration  教會管理">Church Administration  教會管理</option>
-                [% END %]
-                [% IF ( f902 ) %]
-                    <option value="Ethics  教會倫理" selected="selected">Ethics  教會倫理</option>
-                [% ELSE %]
-                    <option value="Ethics  教會倫理">Ethics  教會倫理</option>
-                [% END %]
-                [% IF ( f903 ) %]
-                    <option value="Mission  宣教" selected="selected">Mission  宣教</option>
-                [% ELSE %]
-                    <option value="Mission  宣教">Mission  宣教</option>
-                [% END %]
-                [% IF ( f904 ) %]
-                    <option value="Social Justice  社會正義" selected="selected">Social Justice  社會正義</option>
-                [% ELSE %]
-                    <option value="Social Justice  社會正義">Social Justice  社會正義</option>
-                [% END %]
-            </select>
-        </td>
-    </tr>
-	<tr>
-        <td>
-            <input type="radio" name="radio_f" value="f10" onClick="enableElement()";>  Spiritual Formation  靈命栽培
+            <input type="radio" name="radio_f" value="f10" onClick="enableElement()";>  聖經
         </td>
         <td>
             <select name="f10" id="f10" size="1" disabled>
@@ -315,239 +23,423 @@
                     <option value="">Please choose...   請選...</option>
                 [% END %]
                 [% IF ( f1001 ) %]
-                    <option value="Bible Reading  讀經" selected="selected">Bible Reading  讀經</option>
+                    <option value="聖經  Bible" selected="selected">聖經  Bible</option>
                 [% ELSE %]
-                    <option value="Bible Reading  讀經">Bible Reading  讀經</option>
+                    <option value="聖經  Bible">聖經  Bible</option>
                 [% END %]
                 [% IF ( f1002 ) %]
-                    <option value="Discipleship  門徒訓練" selected="selected">Discipleship  門徒訓練</option>
+                    <option value="中英對照聖經  Chinese and English Bilingual Bible" selected="selected">中英對照聖經  Chinese and English Bilingual Bible</option>
                 [% ELSE %]
-                    <option value="Discipleship  門徒訓練">Discipleship  門徒訓練</option>
+                    <option value="中英對照聖經  Chinese and English Bilingual Bible">中英對照聖經  Chinese and English Bilingual Bible</option>
                 [% END %]
                 [% IF ( f1003 ) %]
-                    <option value="Fellowship  團契" selected="selected">Fellowship  團契</option>
+                    <option value="靈修版聖經  Devotional Bible" selected="selected">靈修版聖經  Devotional Bible</option>
                 [% ELSE %]
-                    <option value="Fellowship  團契">Fellowship  團契</option>
+                    <option value="靈修版聖經  Devotional Bible">靈修版聖經  Devotional Bible</option>
                 [% END %]
                 [% IF ( f1004 ) %]
-                    <option value="Follow-up  初信造就" selected="selected">Follow-up  初信造就</option>
+                    <option value="研讀本聖經  Study Bible" selected="selected">研讀本聖經  Study Bible</option>
                 [% ELSE %]
-                    <option value="Follow-up  初信造就">Follow-up  初信造就</option>
-                [% END %]
-                [% IF ( f1005 ) %]
-                    <option value="Local Evangelism  本地佈道" selected="selected">Local Evangelism  本地佈道</option>
-                [% ELSE %]
-                    <option value="Local Evangelism  本地佈道">Local Evangelism  本地佈道</option>
-                [% END %]
-                [% IF ( f1006 ) %]
-                    <option value="Mission  宣教" selected="selected">Mission  宣教</option>
-                [% ELSE %]
-                    <option value="Mission  宣教">Mission  宣教</option>
-                [% END %]
-                [% IF ( f1007 ) %]
-                    <option value="Prayer  禱告" selected="selected">Prayer  禱告</option>
-                [% ELSE %]
-                    <option value="Prayer  禱告">Prayer  禱告</option>
-                [% END %]
-                [% IF ( f1008 ) %]
-                    <option value="Serving  事奉" selected="selected">Serving  事奉</option>
-                [% ELSE %]
-                    <option value="Serving  事奉">Serving  事奉</option>
-                [% END %]
-                [% IF ( f1009 ) %]
-                    <option value="Worship  敬拜" selected="selected">Worship  敬拜</option>
-                [% ELSE %]
-                    <option value="Worship  敬拜">Worship  敬拜</option>
+                    <option value="研讀本聖經  Study Bible">研讀本聖經  Study Bible</option>
                 [% END %]
             </select>
         </td>
     </tr>
     <tr>
         <td>
-            <input type="radio" name="radio_f" value="f11" onClick="enableElement()";>  Theology  神學
+            <input type="radio" name="radio_f" value="f15" onClick="enableElement()";>  查經材料
         </td>
         <td>
-            <select name="f11" id="f11" size="1" disabled>
-                [% IF ( f11pipe ) %]
+            <select name="f15" id="f15" size="1" disabled>
+                [% IF ( f15pipe ) %]
                     <option value="" selected="selected">Please choose...   請選...</option>
                 [% ELSE %]
                     <option value="">Please choose...   請選...</option>
                 [% END %]
-
-                [% IF ( f1101 ) %]
-                    <option value="Biblical Theology  聖經神學" selected="selected">Biblical Theology  聖經神學</option>
+                [% IF ( f1501 ) %]
+                    <option value="查經材料  Bible Study Resources" selected="selected">查經材料  Bible Study Resources</option>
                 [% ELSE %]
-                    <option value="Biblical Theology  聖經神學">Biblical Theology  聖經神學</option>
-                [% END %]
-                [% IF ( f1102 ) %]
-                    <option value="Doctrine of Angels and Demons  天使與魔鬼論" selected="selected">Doctrine of Angels and Demons  天使與魔鬼論</option>
-                [% ELSE %]
-                    <option value="Doctrine of Angels and Demons  天使與魔鬼論">Doctrine of Angels and Demons  天使與魔鬼論</option>
-                [% END %]
-                [% IF ( f1103 ) %]
-                    <option value="Doctrine of Bible  聖經論" selected="selected">Doctrine of Bible  聖經論</option>
-                [% ELSE %]
-                    <option value="Doctrine of Bible  聖經論">Doctrine of Bible  聖經論</option>
-                [% END %]
-                [% IF ( f1104 ) %]
-                    <option value="Doctrine of Christ  基督論" selected="selected">Doctrine of Christ  基督論</option>
-                [% ELSE %]
-                    <option value="Doctrine of Christ  基督論">Doctrine of Christ  基督論</option>
-                [% END %]
-                [% IF ( f1105 ) %]
-                    <option value="Doctrine of Church  教會論" selected="selected">Doctrine of Church  教會論</option>
-                [% ELSE %]
-                    <option value="Doctrine of Church  教會論">Doctrine of Church  教會論</option>
-                [% END %]
-                [% IF ( f1106 ) %]
-                    <option value="Doctrine of God  神論" selected="selected">Doctrine of God  神論</option>
-                [% ELSE %]
-                    <option value="Doctrine of God  神論">Doctrine of God  神論</option>
-                [% END %]
-                [% IF ( f1107 ) %]
-                    <option value="Doctrine of Holy Spirit  聖靈論" selected="selected">Doctrine of Holy Spirit  聖靈論</option>
-                [% ELSE %]
-                    <option value="Doctrine of Holy Spirit  聖靈論">Doctrine of Holy Spirit  聖靈論</option>
-                [% END %]
-                [% IF ( f1108 ) %]
-                    <option value="Doctrine of Man  人論" selected="selected">Doctrine of Man  人論</option>
-                [% ELSE %]
-                    <option value="Doctrine of Man  人論">Doctrine of Man  人論</option>
-                [% END %]
-                [% IF ( f1109 ) %]
-                    <option value="Doctrine of Salvation  救恩論" selected="selected">Doctrine of Salvation  救恩論</option>
-                [% ELSE %]
-                    <option value="Doctrine of Salvation  救恩論">Doctrine of Salvation  救恩論</option>
-                [% END %]
-                [% IF ( f1110 ) %]
-                    <option value="Doctrine of the Last Things  末世論" selected="selected">Doctrine of the Last Things  末世論</option>
-                [% ELSE %]
-                    <option value="Doctrine of the Last Things  末世論">Doctrine of the Last Things  末世論</option>
-                [% END %]
-                [% IF ( f1111 ) %]
-                    <option value="Special Topic on Theology  神學專題" selected="selected">Special Topic on Theology  神學專題</option>
-                [% ELSE %]
-                    <option value="Special Topic on Theology  神學專題">Special Topic on Theology  神學專題</option>
-                [% END %]
-                [% IF ( f1112 ) %]
-                    <option value="Systematic Theology  系統神學" selected="selected">Systematic Theology  系統神學</option>
-                [% ELSE %]
-                    <option value="Systematic Theology  系統神學">Systematic Theology  系統神學</option>
-                [% END %]
-
-            </select>
-        </td>
-    </tr>
-	<tr>
-        <td>
-            <input type="radio" name="radio_f" value="f12" onClick="enableElement()";>  Training Resources  培訓資源
-        </td>
-        <td>
-            <select name="f12" id="f12" size="1" disabled>
-                [% IF ( f12pipe ) %]
-                    <option value="" selected="selected">Please choose...   請選...</option>
-                [% ELSE %]
-                    <option value="">Please choose...   請選...</option>
-                [% END %]
-                [% IF ( f1201 ) %]
-                    <option value="Bible Study Methods  查經法" selected="selected">Bible Study Methods  查經法</option>
-                [% ELSE %]
-                    <option value="Bible Study Methods  查經法">Bible Study Methods  查經法</option>
-                [% END %]
-                [% IF ( f1202 ) %]
-                    <option value="Teaching Methods  教學法" selected="selected">Teaching Methods  教學法</option>
-                [% ELSE %]
-                    <option value="Teaching Methods  教學法">Teaching Methods  教學法</option>
-                [% END %]
-                [% IF ( f1203 ) %]
-                    <option value="Preaching Methods  講道法" selected="selected">Preaching Methods  講道法</option>
-                [% ELSE %]
-                    <option value="Preaching Methods  講道法">Preaching Methods  講道法</option>
-                [% END %]
-                [% IF ( f1204 ) %]
-                    <option value="Deacon Training  執事培訓" selected="selected">Deacon Training  執事培訓</option>
-                [% ELSE %]
-                    <option value="Deacon Training  執事培訓">Deacon Training  執事培訓</option>
-                [% END %]
-                [% IF ( f1205 ) %]
-                    <option value="Elder Training  長老培訓" selected="selected">Elder Training  長老培訓</option>
-                [% ELSE %]
-                    <option value="Elder Training  長老培訓">Elder Training  長老培訓</option>
-                [% END %]
-                [% IF ( f1206 ) %]
-                    <option value="Pastoral Training  牧者培訓" selected="selected">Pastoral Training  牧者培訓</option>
-                [% ELSE %]
-                    <option value="Pastoral Training  牧者培訓">Pastoral Training  牧者培訓</option>
-                [% END %]
-                [% IF ( f1207 ) %]
-                    <option value="Mentorship Training  輔導培訓" selected="selected">Mentorship Training  輔導培訓</option>
-                [% ELSE %]
-                    <option value="Mentorship Training  輔導培訓">Mentorship Training  輔導培訓</option>
-                [% END %]
-                [% IF ( f1208 ) %]
-                    <option value="Children Ministry Training  兒童事工培訓" selected="selected">Children Ministry Training  兒童事工培訓</option>
-                [% ELSE %]
-                    <option value="Children Ministry Training  兒童事工培訓">Children Ministry Training  兒童事工培訓</option>
-                [% END %]
-                [% IF ( f1209 ) %]
-                    <option value="Music Training  音樂培訓" selected="selected">Music Training  音樂培訓</option>
-                [% ELSE %]
-                    <option value="Music Training  音樂培訓">Music Training  音樂培訓</option>
-                [% END %]
-                [% IF ( f1210 ) %]
-                    <option value="Small Group Training  小組培訓" selected="selected">Small Group Training  小組培訓</option>
-                [% ELSE %]
-                    <option value="Small Group Training  小組培訓">Small Group Training  小組培訓</option>
-                [% END %]
-                [% IF ( f1211 ) %]
-                    <option value="Caring Ministry Training  關懷事工培訓" selected="selected">Caring Ministry Training  關懷事工培訓</option>
-                [% ELSE %]
-                    <option value="Caring Ministry Training  關懷事工培訓">Caring Ministry Training  關懷事工培訓</option>
-                [% END %]
-                [% IF ( f1212 ) %]
-                    <option value="Local Evangelism Training  本地佈道培訓" selected="selected">Local Evangelism Training  本地佈道培訓</option>
-                [% ELSE %]
-                    <option value="Local Evangelism Training  本地佈道培訓">Local Evangelism Training  本地佈道培訓</option>
-                [% END %]
-                [% IF ( f1213 ) %]
-                    <option value="Mission Training  宣教培訓" selected="selected">Mission Training  宣教培訓</option>
-                [% ELSE %]
-                    <option value="Mission Training  宣教培訓">Mission Training  宣教培訓</option>
+                    <option value="查經材料  Bible Study Resources">查經材料  Bible Study Resources</option>
                 [% END %]
             </select>
         </td>
     </tr>
-	<tr>
+    <tr>
         <td>
-            <input type="radio" name="radio_f" value="f13" onClick="enableElement()";>  World Religions  世界宗教
+            <input type="radio" name="radio_f" value="f20" onClick="enableElement()";>  工具書
         </td>
         <td>
-            <select name="f13" id="f13" size="1" disabled>
-                [% IF ( f13pipe ) %]
+            <select name="f20" id="f20" size="1" disabled>
+                [% IF ( f20pipe ) %]
                     <option value="" selected="selected">Please choose...   請選...</option>
                 [% ELSE %]
                     <option value="">Please choose...   請選...</option>
                 [% END %]
-
-                [% IF ( f1301 ) %]
-                    <option value="Buddhism  佛教" selected="selected">Buddhism  佛教</option>
+                [% IF ( f2001 ) %]
+                    <option value="研經註釋書  Bible Commentary" selected="selected">研經註釋書  Bible Commentary</option>
                 [% ELSE %]
-                    <option value="Buddhism  佛教">Buddhism  佛教</option>
+                    <option value="研經註釋書  Bible Commentary">研經註釋書  Bible Commentary</option>
                 [% END %]
-                [% IF ( f1302 ) %]
-                    <option value="Hinduism  印度教" selected="selected">Hinduism  印度教</option>
+                [% IF ( f2002 ) %]
+                    <option value="參考書  Bible Reference" selected="selected">參考書  Bible Reference</option>
                 [% ELSE %]
-                    <option value="Hinduism  印度教">Hinduism  印度教</option>
+                    <option value="參考書  Bible Reference">參考書  Bible Reference</option>
                 [% END %]
-                [% IF ( f1303 ) %]
-                    <option value="Islam  伊斯蘭教" selected="selected">Islam  伊斯蘭教</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="radio" name="radio_f" value="f25" onClick="enableElement()";>  傳記見證
+        </td>
+        <td>
+            <select name="f25" id="f25" size="1" disabled>
+                [% IF ( f25pipe ) %]
+                    <option value="" selected="selected">Please choose...   請選...</option>
                 [% ELSE %]
-                    <option value="Islam  伊斯蘭教">Islam  伊斯蘭教</option>
+                    <option value="">Please choose...   請選...</option>
                 [% END %]
-                [% IF ( f1304 ) %]
-                    <option value="Judaism  猶太教" selected="selected">Judaism  猶太教</option>
+                [% IF ( f2501 ) %]
+                    <option value="華人  Chinese" selected="selected">華人  Chinese</option>
                 [% ELSE %]
-                    <option value="Judaism  猶太教">Judaism  猶太教</option>
+                    <option value="華人  Chinese">華人  Chinese</option>
+                [% END %]
+                [% IF ( f2502 ) %]
+                    <option value="非華人  Non-Chinese" selected="selected">非華人  Non-Chinese</option>
+                [% ELSE %]
+                    <option value="非華人  Non-Chinese">非華人  Non-Chinese</option>
+                [% END %]
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="radio" name="radio_f" value="f30" onClick="enableElement()";>  基督教教育
+        </td>
+        <td>
+            <select name="f30" id="f30" size="1" disabled>
+                [% IF ( f30pipe ) %]
+                    <option value="" selected="selected">Please choose...   請選...</option>
+                [% ELSE %]
+                    <option value="">Please choose...   請選...</option>
+                [% END %]
+                [% IF ( f3001 ) %]
+                    <option value="成人  Adult" selected="selected">成人  Adult</option>
+                [% ELSE %]
+                    <option value="成人  Adult">成人  Adult</option>
+                [% END %]
+                [% IF ( f3002 ) %]
+                    <option value="兒童  Children" selected="selected">兒童  Children</option>
+                [% ELSE %]
+                    <option value="兒童  Children">兒童  Children</option>
+                [% END %]
+                [% IF ( f3003 ) %]
+                    <option value="青少年  Youth" selected="selected">青少年  Youth</option>
+                [% ELSE %]
+                    <option value="青少年  Youth">青少年  Youth</option>
+                [% END %]
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="radio" name="radio_f" value="f35" onClick="enableElement()";>  基督徒生活
+        </td>
+        <td>
+            <select name="f35" id="f35" size="1" disabled>
+                [% IF ( f35pipe ) %]
+                    <option value="" selected="selected">Please choose...   請選...</option>
+                [% ELSE %]
+                    <option value="">Please choose...   請選...</option>
+                [% END %]
+                [% IF ( f3501 ) %]
+                    <option value="職業  Career" selected="selected">職業  Career</option>
+                [% ELSE %]
+                    <option value="職業  Career">職業  Career</option>
+                [% END %]
+                [% IF ( f3502 ) %]
+                    <option value="情緒  Emotions" selected="selected">情緒  Emotions</option>
+                [% ELSE %]
+                    <option value="情緒  Emotions">情緒  Emotions</option>
+                [% END %]
+                [% IF ( f3503 ) %]
+                    <option value="家庭  Family" selected="selected">家庭  Family</option>
+                [% ELSE %]
+                    <option value="家庭  Family">家庭  Family</option>
+                [% END %]
+                [% IF ( f3504 ) %]
+                    <option value="理財  Finance" selected="selected">理財  Finance</option>
+                [% ELSE %]
+                    <option value="理財  Finance">理財  Finance</option>
+                [% END %]
+                [% IF ( f3505 ) %]
+                    <option value="男人  Man" selected="selected">男人  Man</option>
+                [% ELSE %]
+                    <option value="男人  Man">男人  Man</option>
+                [% END %]
+                [% IF ( f3506 ) %]
+                    <option value="長者  Senior" selected="selected">長者  Senior</option>
+                [% ELSE %]
+                    <option value="長者  Senior">長者  Senior</option>
+                [% END %]
+                [% IF ( f3507 ) %]
+                    <option value="婦女  Woman" selected="selected">婦女  Woman</option>
+                [% ELSE %]
+                    <option value="婦女  Woman">婦女  Woman</option>
+                [% END %]
+                [% IF ( f3508 ) %]
+                    <option value="人際關係  Interpersonal Relationships" selected="selected">人際關係  Interpersonal Relationships</option>
+                [% ELSE %]
+                    <option value="人際關係  Interpersonal Relationships">人際關係  Interpersonal Relationships</option>
+                [% END %]
+                [% IF ( f3509 ) %]
+                    <option value="擇偶與婚姻  Spouse and Marriage" selected="selected">擇偶與婚姻  Spouse and Marriage</option>
+                [% ELSE %]
+                    <option value="擇偶與婚姻  Spouse and Marriage">擇偶與婚姻  Spouse and Marriage</option>
+                [% END %]
+                [% IF ( f3510 ) %]
+                    <option value="教養兒童  Children Parenting" selected="selected">教養兒童  Children Parenting</option>
+                [% ELSE %]
+                    <option value="教養兒童  Children Parenting">教養兒童  Children Parenting</option>
+                [% END %]
+                [% IF ( f3511 ) %]
+                    <option value="教養青少年  Youth Parenting" selected="selected">教養青少年  Youth Parenting</option>
+                [% ELSE %]
+                    <option value="教養青少年  Youth Parenting">教養青少年  Youth Parenting</option>
+                [% END %]
+                [% IF ( f3512 ) %]
+                    <option value="特殊需要  Special Need" selected="selected">特殊需要  Special Need</option>
+                [% ELSE %]
+                    <option value="特殊需要  Special Need">特殊需要  Special Need</option>
+                [% END %]
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="radio" name="radio_f" value="f40" onClick="enableElement()";>  教會
+        </td>
+        <td>
+            <select name="f40" id="f40" size="1" disabled>
+                [% IF ( f40pipe ) %]
+                    <option value="" selected="selected">Please choose...   請選...</option>
+                [% ELSE %]
+                    <option value="">Please choose...   請選...</option>
+                [% END %]
+                [% IF ( f4001 ) %]
+                    <option value="護教  Apologetics" selected="selected">護教  Apologetics</option>
+                [% ELSE %]
+                    <option value="護教  Apologetics">護教  Apologetics</option>
+                [% END %]
+                [% IF ( f4002 ) %]
+                    <option value="教派  Denominations" selected="selected">教派  Denominations</option>
+                [% ELSE %]
+                    <option value="教派  Denominations">教派  Denominations</option>
+                [% END %]
+                [% IF ( f4003 ) %]
+                    <option value="教會歷史  Church History" selected="selected">教會歷史  Church History</option>
+                [% ELSE %]
+                    <option value="教會歷史  Church History">教會歷史  Church History</option>
+                [% END %]
+                [% IF ( f4004 ) %]
+                    <option value="異端  Heresy" selected="selected">異端  Heresy</option>
+                [% ELSE %]
+                    <option value="異端  Heresy">異端  Heresy</option>
+                [% END %]
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="radio" name="radio_f" value="f45" onClick="enableElement()";>  文藝創作
+        </td>
+        <td>
+            <select name="f45" id="f45" size="1" disabled>
+                [% IF ( f45pipe ) %]
+                    <option value="" selected="selected">Please choose...   請選...</option>
+                [% ELSE %]
+                    <option value="">Please choose...   請選...</option>
+                [% END %]
+                [% IF ( f4501 ) %]
+                    <option value="經典精選  Classic" selected="selected">經典精選  Classic</option>
+                [% ELSE %]
+                    <option value="經典精選  Classic">經典精選  Classic</option>
+                [% END %]
+                [% IF ( f4502 ) %]
+                    <option value="散文小說  Prose Fiction" selected="selected">散文小說  Prose Fiction</option>
+                [% ELSE %]
+                    <option value="散文小說  Prose Fiction">散文小說  Prose Fiction</option>
+                [% END %]
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="radio" name="radio_f" value="f50" onClick="enableElement()";>  實踐神學
+        </td>
+        <td>
+            <select name="f50" id="f50" size="1" disabled>
+                [% IF ( f50pipe ) %]
+                    <option value="" selected="selected">Please choose...   請選...</option>
+                [% ELSE %]
+                    <option value="">Please choose...   請選...</option>
+                [% END %]
+                [% IF ( f5001 ) %]
+                    <option value="教會組織管理  Church Administration" selected="selected">教會組織管理  Church Administration</option>
+                [% ELSE %]
+                    <option value="教會組織管理  Church Administration">教會組織管理  Church Administration</option>
+                [% END %]
+                [% IF ( f5002 ) %]
+                    <option value="佈道  Sermons" selected="selected">佈道  Sermons</option>
+                [% ELSE %]
+                    <option value="佈道  Sermons">佈道  Sermons</option>
+                [% END %]
+                [% IF ( f5003 ) %]
+                    <option value="宣教  Missions" selected="selected">宣教  Missions</option>
+                [% ELSE %]
+                    <option value="宣教  Missions">宣教  Missions</option>
+                [% END %]
+                [% IF ( f5004 ) %]
+                    <option value="教牧  Pastoral" selected="selected">教牧  Pastoral</option>
+                [% ELSE %]
+                    <option value="教牧  Pastoral">教牧  Pastoral</option>
+                [% END %]
+                [% IF ( f5005 ) %]
+                    <option value="社會參與  Social Participation" selected="selected">社會參與  Social Participation</option>
+                [% ELSE %]
+                    <option value="社會參與  Social Participation">社會參與  Social Participation</option>
+                [% END %]
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="radio" name="radio_f" value="f55" onClick="enableElement()";>  靈命成長
+        </td>
+        <td>
+            <select name="f55" id="f55" size="1" disabled>
+                [% IF ( f55pipe ) %]
+                    <option value="" selected="selected">Please choose...   請選...</option>
+                [% ELSE %]
+                    <option value="">Please choose...   請選...</option>
+                [% END %]
+                [% IF ( f5501 ) %]
+                    <option value="每日靈修  Daily Devotional" selected="selected">每日靈修  Daily Devotional</option>
+                [% ELSE %]
+                    <option value="每日靈修  Daily Devotional">每日靈修  Daily Devotional</option>
+                [% END %]
+                [% IF ( f5502 ) %]
+                    <option value="門徒訓練  Discipleship" selected="selected">門徒訓練  Discipleship</option>
+                [% ELSE %]
+                    <option value="門徒訓練  Discipleship">門徒訓練  Discipleship</option>
+                [% END %]
+                [% IF ( f5503 ) %]
+                    <option value="團契小組  Fellowship Group" selected="selected">團契小組  Fellowship Group</option>
+                [% ELSE %]
+                    <option value="團契小組  Fellowship Group">團契小組  Fellowship Group</option>
+                [% END %]
+                [% IF ( f5504 ) %]
+                    <option value="初信造就  Follow-up" selected="selected">初信造就  Follow-up</option>
+                [% ELSE %]
+                    <option value="初信造就  Follow-up">初信造就  Follow-up</option>
+                [% END %]
+                [% IF ( f5505 ) %]
+                    <option value="禱告  Prayer" selected="selected">禱告  Prayer</option>
+                [% ELSE %]
+                    <option value="禱告  Prayer">禱告  Prayer</option>
+                [% END %]
+                [% IF ( f5506 ) %]
+                    <option value="事奉裝備  Serving and Equip" selected="selected">事奉裝備  Serving and Equip</option>
+                [% ELSE %]
+                    <option value="事奉裝備  Serving and Equip">事奉裝備  Serving and Equip</option>
+                [% END %]
+                [% IF ( f5507 ) %]
+                    <option value="敬拜  Worship" selected="selected">敬拜  Worship</option>
+                [% ELSE %]
+                    <option value="敬拜  Worship">敬拜  Worship</option>
+                [% END %]
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="radio" name="radio_f" value="f60" onClick="enableElement()";>  神學專題
+        </td>
+        <td>
+            <select name="f60" id="f60" size="1" disabled>
+                [% IF ( f60pipe ) %]
+                    <option value="" selected="selected">Please choose...   請選...</option>
+                [% ELSE %]
+                    <option value="">Please choose...   請選...</option>
+                [% END %]
+                [% IF ( f6001 ) %]
+                    <option value="天使與魔鬼  Angels and Demons" selected="selected">天使與魔鬼  Angels and Demons</option>
+                [% ELSE %]
+                    <option value="天使與魔鬼  Angels and Demons">天使與魔鬼  Angels and Demons</option>
+                [% END %]
+                [% IF ( f6002 ) %]
+                    <option value="基督與救恩  Christ and Salvation" selected="selected">基督與救恩  Christ and Salvation</option>
+                [% ELSE %]
+                    <option value="基督與救恩  Christ and Salvation">基督與救恩  Christ and Salvation</option>
+                [% END %]
+                [% IF ( f6003 ) %]
+                    <option value="神與神的國  God and God's Kingdom" selected="selected">神與神的國  God and God's Kingdom</option>
+                [% ELSE %]
+                    <option value="神與神的國  God and God's Kingdom">神與神的國  God and God's Kingdom</option>
+                [% END %]
+                [% IF ( f6004 ) %]
+                    <option value="聖靈  Holy Spirit" selected="selected">聖靈  Holy Spirit</option>
+                [% ELSE %]
+                    <option value="聖靈  Holy Spirit">聖靈  Holy Spirit</option>
+                [% END %]
+                [% IF ( f6005 ) %]
+                    <option value="罪  Sin" selected="selected">罪  Sin</option>
+                [% ELSE %]
+                    <option value="罪  Sin">罪  Sin</option>
+                [% END %]
+                [% IF ( f6006 ) %]
+                    <option value="末世  Eschatology" selected="selected">末世  Eschatology</option>
+                [% ELSE %]
+                    <option value="末世  Eschatology">末世  Eschatology</option>
+                [% END %]
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="radio" name="radio_f" value="f65" onClick="enableElement()";>  世界宗教
+        </td>
+        <td>
+            <select name="f65" id="f65" size="1" disabled>
+                [% IF ( f65pipe ) %]
+                    <option value="" selected="selected">Please choose...   請選...</option>
+                [% ELSE %]
+                    <option value="">Please choose...   請選...</option>
+                [% END %]
+                [% IF ( f6501 ) %]
+                    <option value="佛教  Buddhism" selected="selected">佛教  Buddhism</option>
+                [% ELSE %]
+                    <option value="佛教  Buddhism">佛教  Buddhism</option>
+                [% END %]
+                [% IF ( f6502 ) %]
+                    <option value="印度教  Hinduism" selected="selected">印度教  Hinduism</option>
+                [% ELSE %]
+                    <option value="印度教  Hinduism">印度教  Hinduism</option>
+                [% END %]
+                [% IF ( f6503 ) %]
+                    <option value="伊斯蘭教  Islam" selected="selected">伊斯蘭教  Islam</option>
+                [% ELSE %]
+                    <option value="伊斯蘭教  Islam">伊斯蘭教  Islam</option>
+                [% END %]
+                [% IF ( f6504 ) %]
+                    <option value="猶太教  Judaism" selected="selected">猶太教  Judaism</option>
+                [% ELSE %]
+                    <option value="猶太教  Judaism">猶太教  Judaism</option>
+                [% END %]
+                [% IF ( f6505 ) %]
+                    <option value="摩門教  Mormon" selected="selected">摩門教  Mormon</option>
+                [% ELSE %]
+                    <option value="摩門教  Mormon">摩門教  Mormon</option>
                 [% END %]
             </select>
         </td>
@@ -558,37 +450,36 @@
 <script type="text/javascript">
 //<![CDATA[
 function report() {
-	    var doc   = opener.document; 
-            var field = doc.getElementById("[% index %]");
-            field.value =  	document.f_pop.f1.value +  
-				document.f_pop.f2.value +  
-				document.f_pop.f3.value +  
-				document.f_pop.f4.value +  
-				document.f_pop.f5.value +  
-				document.f_pop.f6.value +  
-				document.f_pop.f7.value +  
-				document.f_pop.f8.value +  
-				document.f_pop.f9.value +  
-				document.f_pop.f10.value + 
-                                document.f_pop.f11.value +
-                                document.f_pop.f12.value +				
-                                document.f_pop.f13.value;
-            //console.log(field.value);  
-	    window.close();
-            return false;
-	}
+    var doc   = opener.document; 
+    var field = doc.getElementById("[% index %]");
+    field.value = 
+        document.f_pop.f10.value + 
+        document.f_pop.f15.value + 
+        document.f_pop.f20.value + 
+        document.f_pop.f25.value + 
+        document.f_pop.f30.value + 
+        document.f_pop.f35.value + 
+        document.f_pop.f40.value + 
+        document.f_pop.f45.value + 
+        document.f_pop.f50.value + 
+        document.f_pop.f55.value + 
+        document.f_pop.f60.value + 
+        document.f_pop.f65.value;
+    console.log(field.value);
+    window.close();
+    return false;
+}
 //]]>
 function enableElement() {
-   var items = ["f1", "f2", "f3", "f4", "f5", "f6", "f7", "f8", "f9", "f10", "f11", "f12", "f13"];
+   var items = ["f10", "f15", "f20", "f25", "f30", "f35", "f40", "f45", "f50", "f55", "f60", "f65"];
    for(index = 0; index < items.length; index++) {
      document.getElementById(items[index]).disabled=true;
      document.getElementById(items[index]).value="";
    }
    var selectValue = document.querySelector('input[name = "radio_f"]:checked').value;
-   //console.log("You entered " + selectValue + " for your radio button selection<br>"); 
+   console.log("You entered " + selectValue + " for your radio button selection<br>"); 
    document.getElementById(selectValue).disabled=false; 
 }
 </script>
 
 [% INCLUDE 'popup-bottom.inc' %]
-
